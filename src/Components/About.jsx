@@ -3,6 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <main>
+      <h2>About me</h2>
       <p>
         Prior to completing the Northcoders Developer Pathway in 2020, I worked
         in international development; I have two MSc. degrees from Technische
