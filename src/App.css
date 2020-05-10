@@ -1,8 +1,5 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: url("./Images/canopy-1.png");
+  background-size: 100%;
+  font-family: "Raleway", sans-serif;
 }
