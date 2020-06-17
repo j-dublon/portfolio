@@ -1,5 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
 body {
   background-image: url("./Images/canopy-1.png");
   background-size: 100%;
   font-family: "Raleway", sans-serif;
+}
+
+.topnav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.topnav__item {
+  color: #161a1d;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 1em;
+}
+
+.welcome {
+  margin-top: 6em;
+  text-align: center;
+}
+
+.welcome__title {
+  font-size: 35px;
+  line-height: 50px;
+  font-weight: 500;
+  color: #161a1d;
+}
+
+.welcome__link {
+  line-height: 50px;
+  text-decoration: none;
+  color: #161a1d;
+  font-weight: 500;
+}
+
+.bottomNav {
+  position: fixed;
+  float: left;
+  bottom: 1em;
+}
+
+.fab {
+  font-size: 1.8em;
+  padding-left: 1em;
+  color: #161a1d;
 }

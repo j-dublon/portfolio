@@ -6,6 +6,7 @@ import Welcome from "./Components/Welcome";
 import BottomNav from "./Components/BottomNav";
 import About from "./Components/About";
 import Portfolio from "./Components/Portfolio";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Welcome path="/" />
         <Portfolio path="/portfolio" />
         <About path="/info" />
+        <Contact path="/contact" />
       </Router>
       <BottomNav />
     </div>

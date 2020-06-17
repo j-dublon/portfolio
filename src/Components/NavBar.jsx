@@ -1,15 +1,21 @@
 import React from "react";
 import { Link } from "@reach/router";
 
-const NavBar = () => {
+export default function NavBar() {
   return (
-    <nav>
-      <Link to={"/"}>Welcome</Link>
-      <Link to={"/portfolio"}>Portfolio</Link>
-      <Link to={"/info"}>About me</Link>
-      <Link to={"/contact"}>Contact</Link>
+    <nav className="topnav">
+      <Link to={"/"} className="topnav__item">
+        Welcome
+      </Link>
+      <Link to={"/portfolio"} className="topnav__item">
+        Portfolio
+      </Link>
+      <Link to={"/info"} className="topnav__item">
+        About me
+      </Link>
+      <Link to={"/contact"} className="topnav__item">
+        Contact
+      </Link>
     </nav>
   );
-};
-
-export default NavBar;
+}

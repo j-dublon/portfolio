@@ -1,16 +1,14 @@
 import React from "react";
 import { Link } from "@reach/router";
 
-const Welcome = () => {
+export default function Welcome() {
   return (
-    <header>
-      <h1>Hello, my name is Jodi Dublon.</h1>
-      <h1>I am a JavaScript developer.</h1>
-      <Link to={"/portfolio"}>
+    <main className="welcome">
+      <h1 className="welcome__title">Hello, my name is Jodi Dublon.</h1>
+      <h1 className="welcome__title">I am a JavaScript developer.</h1>
+      <Link to={"/portfolio"} className="welcome__link">
         View my work <i class="fas fa-arrow-circle-right"></i>
       </Link>
-    </header>
+    </main>
   );
-};
-
-export default Welcome;
+}

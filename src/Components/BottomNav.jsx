@@ -1,16 +1,17 @@
 import React from "react";
 
-const BottomNav = () => {
+export default function BottomNav() {
   return (
-    <nav>
-      <a href="https://github.com/j-dublon">
+    <nav className="bottomNav">
+      <a href="https://github.com/j-dublon" className="bottomNav__link">
         <i class="fab fa-github"></i>
       </a>
-      <a href="https://www.linkedin.com/in/jdublon/">
+      <a
+        href="https://www.linkedin.com/in/jdublon/"
+        className="bottomNav__link"
+      >
         <i class="fab fa-linkedin"></i>
       </a>
     </nav>
   );
-};
-
-export default BottomNav;
+}
