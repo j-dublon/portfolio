@@ -47,7 +47,8 @@ body {
   font-weight: 500;
 }
 
-.about__title {
+.about__title,
+.contact__title {
   color: #161a1d;
   font-weight: 500;
   font-size: 35px;
@@ -103,6 +104,61 @@ body {
   font-size: 1em;
   line-height: 1.4em;
   text-align: center;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin: auto;
+}
+
+.contact__form__label {
+  margin-bottom: 0.3em;
+  margin-top: 1em;
+  color: #161a1d;
+  font-weight: 500;
+}
+
+.contact__form__input {
+  border: 1px solid #161a1d;
+  border-radius: 6px;
+  padding: 0.4em 0.5em;
+  outline: none;
+  background-color: #f0f8ff;
+}
+
+.contact__form__input:focus {
+  border: 1.3px solid #161a1d;
+}
+
+.contact__form__input__textarea {
+  border: 1px solid #161a1d;
+  border-radius: 6px;
+  padding: 0.4em 0.5em;
+  outline: none;
+  height: 160px;
+  background-color: #f0f8ff;
+}
+
+.contact__form__input__textarea:focus {
+  border: 1.3px solid #161a1d;
+}
+
+.contact__form__button {
+  width: 40%;
+  align-self: center;
+  margin-top: 1em;
+  border: 1px solid #161a1d;
+  border-radius: 6px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  outline: none;
+  background-color: #dee9fb;
+}
+
+.contact__form__button:focus {
+  border: 1.3px solid #161a1d;
 }
 
 .bottomNav {
