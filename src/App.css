@@ -113,6 +113,12 @@ body {
   margin: auto;
 }
 
+.contact__confirmation {
+  text-align: center;
+  font-weight: 500;
+  font-style: italic;
+}
+
 .contact__form__label {
   margin-bottom: 0.3em;
   margin-top: 1em;
