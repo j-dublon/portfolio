@@ -5,7 +5,7 @@ class Portfolio extends Component {
   state = {
     projects: [
       {
-        name: "Renewable Exchange Test",
+        name: "Renewable Exchange Coding Test",
         id: "1",
         description:
           "A single page app built during a coding test, serving data from a web API. Users may add, delete and filter other users.",
@@ -17,7 +17,7 @@ class Portfolio extends Component {
         name: "Independent Leeds",
         id: "2",
         description:
-          "A full stack web app that helps independent eateries reach their customers with their current services during Covid-19. Users may register, login, find businesses on a map, filter by cuisine and dietary requirements, view indiivdual business pages and leave comments.",
+          "A full stack web app that helps independent eateries reach their customers with their current services during Covid-19. Users may register, login, find businesses on a map, filter by cuisine and dietary requirements, view individual business pages and leave comments.",
         tech:
           "React | Material-UI | HTML5 | Responsive CSS Leaflet | Node.js | Axios | Reach Router | AWS Amplify | Cognito | DynamoDB | API Gateway |  Lambda  | Cloud Watch | IAM | Javascript",
         site: "https://independent-leeds.netlify.app/",

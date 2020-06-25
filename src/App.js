@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Router>
+      <Router primary={false}>
         <Welcome path="/" />
         <Portfolio path="/portfolio" />
         <About path="/info" />
