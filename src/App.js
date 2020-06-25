@@ -1,7 +1,7 @@
 import React from "react";
+import { Router } from "@reach/router";
 import "./App.css";
 import NavBar from "./Components/NavBar";
-import { Router } from "@reach/router";
 import Welcome from "./Components/Welcome";
 import BottomNav from "./Components/BottomNav";
 import About from "./Components/About";
