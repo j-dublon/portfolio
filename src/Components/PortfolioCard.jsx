@@ -9,18 +9,20 @@ const PortfolioCard = ({ name, id, description, tech, site, code }) => {
         className="portfolioCard__img"
       />
       <section className="portfolioCard__infoContainer">
-        <a
-          href={site}
-          className="portfolioCard__title"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {name}
-        </a>
-        <p className="portfolioCard__description">{description}</p>
-        <div className="portfolioCard__tech">
-          <p className="portfolioCard__tech__heading">Tech:</p>
-          <p className="portfolioCard__tech__content">{tech}</p>
+        <div>
+          <a
+            href={site}
+            className="portfolioCard__title"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {name}
+          </a>
+          <p className="portfolioCard__description">{description}</p>
+          <div className="portfolioCard__tech">
+            <p className="portfolioCard__tech__heading">Tech:</p>
+            <p className="portfolioCard__tech__content">{tech}</p>
+          </div>
         </div>
         <section className="portfolioCard__links">
           {site !== "" && (

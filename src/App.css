@@ -22,6 +22,12 @@ body {
   align-items: center;
 }
 
+.fab {
+  font-size: 1.8em;
+  padding-left: 0.9em;
+  color: #161a1d;
+}
+
 .rightNav {
   display: flex;
   flex-direction: row;
@@ -88,6 +94,7 @@ body {
 .portfolioCard__infoContainer {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .portfolioCard__title {
@@ -250,12 +257,6 @@ a:hover {
   border: 1.3px solid #161a1d;
 }
 
-.fab {
-  font-size: 1.8em;
-  padding-left: 0.9em;
-  color: #161a1d;
-}
-
 @media only screen and (max-width: 700px) {
   .navigation {
     display: flex;
@@ -274,6 +275,7 @@ a:hover {
   }
 
   .fab {
+    font-size: 1.4em;
     padding-left: 0;
   }
 
