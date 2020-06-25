@@ -11,18 +11,24 @@
 
 body {
   background-image: url("./Images/canopy-1.png");
-  background-size: 100%;
+  background-size: cover;
   background-attachment: fixed;
   font-family: "Raleway", sans-serif;
 }
 
-.topnav {
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightNav {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
 
-.topnav__item {
+.rightNav__item {
   color: #161a1d;
   text-decoration: none;
   font-weight: 500;
@@ -30,8 +36,10 @@ body {
 }
 
 .welcome {
-  margin-top: 6em;
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  margin-top: 7em;
 }
 
 .welcome__title {
@@ -242,14 +250,95 @@ a:hover {
   border: 1.3px solid #161a1d;
 }
 
-.bottomNav {
-  position: fixed;
-  float: left;
-  bottom: 1em;
-}
-
 .fab {
   font-size: 1.8em;
   padding-left: 0.9em;
   color: #161a1d;
+}
+
+@media only screen and (max-width: 700px) {
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftNav {
+    margin-top: 0.5em;
+    display: flex;
+  }
+
+  .leftNav__item {
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+  }
+
+  .fab {
+    padding-left: 0;
+  }
+
+  .rightNav {
+    font-size: 0.9em;
+    justify-content: center;
+  }
+
+  .welcome__title {
+    font-size: 2.2em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+
+  .portfolioCard__container {
+    flex-direction: column;
+  }
+
+  .portfolioCard__img {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 0.5em;
+  }
+
+  .portfolioCard__title {
+    font-size: 1.1em;
+    text-align: center;
+  }
+
+  .portfolioCard__description {
+    text-align: center;
+  }
+
+  .portfolioCard__tech {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about__topContent {
+    flex-direction: column;
+  }
+
+  .about__topContent__title {
+    text-align: center;
+  }
+
+  .about__topContent__list {
+    margin-left: 0;
+    list-style: none;
+    text-align: center;
+  }
+
+  .about__topContent__list__item {
+    margin-bottom: 0.7em;
+  }
+
+  .about__topContent__img {
+    margin-top: 0.4em;
+  }
+
+  .about__bottomContent {
+    text-align: center;
+  }
+
+  .contact__form {
+    width: 70%;
+  }
 }
