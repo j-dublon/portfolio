@@ -300,6 +300,11 @@ a:hover {
     margin-bottom: 0.5em;
   }
 
+  .portfolioCard__top {
+    display: flex;
+    flex-direction: column;
+  }
+
   .portfolioCard__title {
     font-size: 1.1em;
     text-align: center;

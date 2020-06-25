@@ -9,7 +9,7 @@ const PortfolioCard = ({ name, id, description, tech, site, code }) => {
         className="portfolioCard__img"
       />
       <section className="portfolioCard__infoContainer">
-        <div>
+        <div className="portfolioCard__top">
           <a
             href={site}
             className="portfolioCard__title"
