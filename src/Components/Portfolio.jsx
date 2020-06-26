@@ -5,6 +5,25 @@ class Portfolio extends Component {
   state = {
     projects: [
       {
+        name: "Northcoders News",
+        id: "3",
+        description:
+          "A full stack news app serving data from a self-built RESTful API. Users may browse articles, filter by topic, leave comments and vote on articles and comments.",
+        tech:
+          "React | HTML5 | Responsive CSS Leaflet | Node.js | Axios | Reach Router",
+        site: "https://j-dublon-react-news-app.netlify.app/",
+        code: "https://github.com/j-dublon/react-news-app",
+      },
+      {
+        name: "RESTful API",
+        id: "4",
+        description:
+          "A RESTful API utilising MVC architecture, with comprehensive error handling. The API serves articles, comments, topics and users, and enables the posting and deleting of comments, and the amending of 'vote' property of both comments and articles.",
+        tech: "Express | Knex | PostgreSQL | Mocha | Chai | Supertest",
+        site: "https://j-dublon-nc-news.herokuapp.com/api",
+        code: "https://github.com/j-dublon/be-nc-news",
+      },
+      {
         name: "Renewable Exchange Coding Test",
         id: "1",
         description:
@@ -24,23 +43,12 @@ class Portfolio extends Component {
         code: "https://github.com/j-dublon/independent-leeds",
       },
       {
-        name: "Northcoders News",
-        id: "3",
+        name: "Simple Game Review App",
+        id: "6",
         description:
-          "A full stack news app serving data from a self-built RESTful API. Users may browse articles, filter by topic, leave comments and vote on articles and comments.",
-        tech:
-          "React | HTML5 | Responsive CSS Leaflet | Node.js | Axios | Reach Router",
-        site: "https://j-dublon-react-news-app.netlify.app/",
-        code: "https://github.com/j-dublon/react-news-app",
-      },
-      {
-        name: "RESTful API",
-        id: "4",
-        description:
-          "A RESTful API utilising MVC architecture, with comprehensive error handling. The API serves articles, comments, topics and users, and enables the posting and deleting of comments, and the amending of 'vote' property of both comments and articles.",
-        tech: "Express | Knex | PostgreSQL | Mocha | Chai | Supertest",
-        site: "https://j-dublon-nc-news.herokuapp.com/api",
-        code: "https://github.com/j-dublon/be-nc-news",
+          "A simple mobile app built using React Native. Users can view reviews and add their own. This was an opportunity for me to practice using React Hooks and React Native.",
+        tech: "React Native | Formik | Yup | React Navigation",
+        code: "https://github.com/j-dublon/react-native-practice-app",
       },
       {
         name: "Alien Matter Hunt",
