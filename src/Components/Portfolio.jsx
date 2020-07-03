@@ -5,12 +5,21 @@ class Portfolio extends Component {
   state = {
     projects: [
       {
+        name: "A Multitude of Drops",
+        id: "7",
+        description:
+          "A React Native app that serves data from a self-built API. Users select a topic and are shown a quote from the collection.",
+        tech: "React Native | Axios | Express | PostgreSQL",
+        site: "",
+        code: "https://github.com/j-dublon/fe-amod",
+      },
+      {
         name: "Northcoders News",
         id: "3",
         description:
           "A full stack news app serving data from a self-built RESTful API. Users may browse articles, filter by topic, leave comments and vote on articles and comments.",
         tech:
-          "React | HTML5 | Responsive CSS Leaflet | Node.js | Axios | Reach Router",
+          "React | HTML5 | Responsive CSS | Leaflet | Node.js | Axios | Reach Router",
         site: "https://j-dublon-react-news-app.netlify.app/",
         code: "https://github.com/j-dublon/react-news-app",
       },
@@ -48,6 +57,7 @@ class Portfolio extends Component {
         description:
           "A simple mobile app built using React Native. Users can view reviews and add their own. This was an opportunity for me to practice using React Hooks and React Native.",
         tech: "React Native | Formik | Yup | React Navigation",
+        site: "",
         code: "https://github.com/j-dublon/react-native-practice-app",
       },
       {
