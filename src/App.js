@@ -6,6 +6,7 @@ import Welcome from "./Components/Welcome";
 import About from "./Components/About";
 import Portfolio from "./Components/Portfolio";
 import Contact from "./Components/Contact";
+import Image from "./Components/Image";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Portfolio path="/portfolio" />
         <About path="/info" />
         <Contact path="/contact" />
+        <Image path="/image" />
       </Router>
     </div>
   );
