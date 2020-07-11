@@ -33,15 +33,6 @@ class Portfolio extends Component {
         code: "https://github.com/j-dublon/be-nc-news",
       },
       {
-        name: "Renewable Exchange Coding Test",
-        id: "1",
-        description:
-          "A single page app built during a coding test, serving data from a web API. Users may add, delete and filter other users.",
-        tech: "React | Redux | Responsive CSS | HTML5 | JavaScript | Axios",
-        site: "https://renewable-exchange.netlify.app/",
-        code: "https://github.com/j-dublon/renewable-test",
-      },
-      {
         name: "Independent Leeds",
         id: "2",
         description:
@@ -52,7 +43,25 @@ class Portfolio extends Component {
         code: "https://github.com/j-dublon/independent-leeds",
       },
       {
-        name: "Simple Game Review App",
+        name: "Distance Events",
+        id: "8",
+        description:
+          "A React Native app that serves events data from a web API.",
+        tech: "React Native | Axios",
+        site: "",
+        code: "https://github.com/j-dublon/distance-events",
+      },
+      {
+        name: "Renewable Exchange Users",
+        id: "1",
+        description:
+          "A single page app built during a coding test, serving data from a web API. Users may add, delete and filter other users.",
+        tech: "React | Redux | Responsive CSS | HTML5 | JavaScript | Axios",
+        site: "https://renewable-exchange.netlify.app/",
+        code: "https://github.com/j-dublon/renewable-test",
+      },
+      {
+        name: "Game Review App",
         id: "6",
         description:
           "A simple mobile app built using React Native. Users can view reviews and add their own. This was an opportunity for me to practice using React Hooks and React Native.",
