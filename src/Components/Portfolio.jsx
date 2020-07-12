@@ -73,7 +73,7 @@ class Portfolio extends Component {
         name: "Alien Matter Hunt",
         id: "5",
         description:
-          "A single page app that serves data on 'alien landing sites' form NASA's meteorite API. Users can search for sites by region and select map markers to show information.",
+          "A single page app serving data on 'alien landing sites' form NASA's meteorite API. Users can search for sites by region and select map markers to show information.",
         tech: "React | Axios | Leaflet | HTML5 | Responsive CSS",
         site: "",
         code: "https://github.com/j-dublon/alien-matter-hunt",
