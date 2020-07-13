@@ -93,6 +93,7 @@ body {
 
 .portfolioCard__infoContainer {
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -100,7 +101,7 @@ body {
 .portfolioCard__title {
   font-size: 1.3em;
   font-weight: 500;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.8em;
   color: #161a1d;
   text-decoration: none;
 }
@@ -114,16 +115,16 @@ a:hover {
 }
 
 .portfolioCard__description {
-  font-size: 0.9em;
+  font-size: 1em;
   line-height: 1.3em;
   font-weight: 400;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.8em;
   color: #161a1d;
 }
 
 .portfolioCard__tech {
   display: flex;
-  font-size: 0.9em;
+  font-size: 1em;
   margin-bottom: 0.5em;
   color: #161a1d;
 }
