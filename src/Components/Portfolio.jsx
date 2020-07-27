@@ -33,6 +33,22 @@ class Portfolio extends Component {
         code: "https://github.com/j-dublon/be-nc-news",
       },
       {
+        name: "GraphQL Book List Server",
+        id: "9",
+        description:
+          "A GraphQL server built to serve book and author data from a MongoDB database via MongoDB Atlas.",
+        tech: "Express | GraphQL | Mongoose | MongoDB Atlas",
+        code: "https://github.com/j-dublon/graphql-playlist",
+      },
+      {
+        name: "GraphQL Book List",
+        id: "10",
+        description:
+          "A React app that uses Apollo to query a self-built GraphQL server.",
+        tech: "React | React Hooks | Apollo",
+        code: "https://github.com/j-dublon/graphql-playlist",
+      },
+      {
         name: "Independent Leeds",
         id: "2",
         description:
