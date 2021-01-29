@@ -26,7 +26,7 @@ export default function About() {
               </li>
               <li className="about__topContent__list__item">
                 {" "}
-                GIT version control, Agile delivery, JIRA
+                GIT version control, agile delivery, JIRA
               </li>
             </ul>
           </div>
