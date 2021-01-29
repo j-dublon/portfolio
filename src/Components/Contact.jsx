@@ -18,7 +18,7 @@ export default class Contact extends Component {
     event.preventDefault();
     emailjs
       .sendForm(
-        "gmail",
+        "personal_portfolio",
         "portfolio_contact",
         event.target,
         "user_HscMrgACyIEyGVRoGO0lS"
