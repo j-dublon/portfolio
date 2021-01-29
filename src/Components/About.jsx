@@ -10,23 +10,23 @@ export default function About() {
             <h3 className="about__topContent__title">Core skills:</h3>
             <ul className="about__topContent__list">
               <li className="about__topContent__list__item">
-                JavaScript, CSS & HTML5
+                Javascript, React Native, GraphQL
               </li>
               <li className="about__topContent__list__item">
-                React.js, React Native, Node.js
+                React, Node, Apollo, Typescript, AWS Amplify & Cognito
               </li>
               <li className="about__topContent__list__item">
-                Responsive front-end design
+                Clear DRY code, modular programming
               </li>
               <li className="about__topContent__list__item">
-                RESTful APIs, PostgreSQL databases
+                Debugging and problem-solving
               </li>
               <li className="about__topContent__list__item">
-                TDD and unit testing
+                Test driven delivery
               </li>
               <li className="about__topContent__list__item">
                 {" "}
-                Git version control, remote Agile practices
+                GIT version control, Agile delivery, JIRA
               </li>
             </ul>
           </div>
@@ -37,23 +37,20 @@ export default function About() {
           />
         </section>
         <p className="about__bottomContent">
-          My traineeship with Northcoders has provided me with excellent
-          experience of working in a fast-paced agile environment, pushing me to
-          continuously learn and apply new technologies. I am adept in the use
-          of JavaScript (ES6), Node.js and advanced React.js to build web
-          applications, utilising HTML5 and responsive CSS to create UIs that
-          are elegant on both mobile and desktop. I am always learning something
-          new; I recently built an app that uses Redux for state management, and
-          I am now creating a mobile app using React Native. <br />
-          <br /> Prior to completing the Northcoders Developer Pathway, I worked
-          in international development; I have two MSc. degrees from Technische
-          Universität Dresden, Germany, and Copenhagen University, Denmark.
-          Between 2014 and 2016, I provided communications, administration and
-          monitoring and evaluation support to a global flood resilience
-          programme at the international NGO Practical Action. After spending
-          some time volunteering abroad, I started and ran a successful business
-          growing and supplying organic vegetables to retailers in Hebden Bridge
-          and Todmorden.
+          I currently work as a mobile app developer for an industry-leading
+          agency in York. I work primarily in React Native and GraphQL, using
+          modular programming to produce robust, maintainable code. I am
+          involved in every stage of the development life cycle, from
+          problem-analysis to deployment, and work closely with our designers
+          and testers to ensure every product exceeds our clients’ expectations.
+          We use agile delivery for continuous deployment, and I am experienced
+          in using GIT to manage multiple branches across different releases. I
+          strive to continuously improve my coding skills, and enjoy having the
+          opportunity to work closely with and learn from my team. <br />
+          <br /> Prior to this, I completed an intensive traineeship with
+          Northcoders, where I used test-driven development to deliver across
+          the full stack, including servers, REST APIs, and PostgreSQL
+          databases.
         </p>
       </div>
     </main>
