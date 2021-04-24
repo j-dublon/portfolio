@@ -328,6 +328,10 @@ a:hover {
     text-align: center;
   }
 
+  .about__container {
+    width: 75%;
+  }
+
   .about__topContent {
     flex-direction: column;
   }
@@ -362,5 +366,11 @@ a:hover {
 
   .contact__form {
     width: 70%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .about__container {
+    width: 85%;
   }
 }
