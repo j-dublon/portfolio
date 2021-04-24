@@ -30,11 +30,13 @@ export default function About() {
               </li>
             </ul>
           </div>
+          <div className="about__topContent__img_container">
           <img
             src={require("../Images/Profile.png")}
             alt="Profile"
             className="about__topContent__img"
           />
+          </div>
         </section>
         <p className="about__bottomContent">
           I currently work as a mobile app developer for an industry-leading
