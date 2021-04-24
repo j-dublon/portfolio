@@ -70,15 +70,6 @@ class Portfolio extends Component {
         code: "https://github.com/j-dublon/distance-events",
       },
       {
-        name: "The Energy Market",
-        id: "1",
-        description:
-          "A single page app serving data from a web API. Users may add, delete and filter other users.",
-        tech: "React | Redux | Responsive CSS | HTML5 | JavaScript | Axios",
-        site: "https://energy-market.netlify.app/",
-        code: "https://github.com/j-dublon/renewable-test",
-      },
-      {
         name: "Game Review App",
         id: "6",
         description:
