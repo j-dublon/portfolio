@@ -17,7 +17,7 @@ class Portfolio extends Component {
         name: "Northcoders News",
         id: "3",
         description:
-          "A full stack news app serving data from a self-built RESTful API. Users may browse articles, filter by topic, leave comments and vote on articles and comments.",
+          "A full stack news app serving data from a self-built RESTful API. Users may browse articles, filter by topic, leave comments and vote on both articles and comments.",
         tech:
           "React | HTML5 | Responsive CSS | Leaflet | Node.js | Axios | Reach Router",
         site: "https://j-dublon-react-news-app.netlify.app/",
