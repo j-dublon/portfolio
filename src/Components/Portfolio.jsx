@@ -5,6 +5,15 @@ class Portfolio extends Component {
   state = {
     projects: [
       {
+        name: "My GraphQL Jobs",
+        id: "1",
+        description:
+          "My latest project, still in progress. A React Native app that serves data from a public GraphQL API. The app presents users with a tinder-style stack of GraphQL jobs which they can swipe left to discard and right to save. Authorisation will be handled using AWS Cognito, and users will be able to view and edit account information and favourites, and see trends in graph form. Users will be able to click through to company websites and apply URLs.",
+        tech: "React Native | GraphQL | Apollo | React Navigation",
+        site: "",
+        code: "https://github.com/j-dublon/fe-amod",
+      },
+      {
         name: "A Multitude of Drops",
         id: "7",
         description:
@@ -13,25 +22,25 @@ class Portfolio extends Component {
         site: "",
         code: "https://github.com/j-dublon/fe-amod",
       },
-      {
-        name: "Northcoders News",
-        id: "3",
-        description:
-          "A full stack news app serving data from a self-built RESTful API. Users may browse articles, filter by topic, leave comments and vote on both articles and comments.",
-        tech:
-          "React | HTML5 | Responsive CSS | Leaflet | Node.js | Axios | Reach Router",
-        site: "https://j-dublon-react-news-app.netlify.app/",
-        code: "https://github.com/j-dublon/react-news-app",
-      },
-      {
-        name: "RESTful API",
-        id: "4",
-        description:
-          "A RESTful API utilising MVC architecture, with comprehensive error handling. The API serves articles, comments, topics and users, and enables the posting and deleting of comments, and the amending of 'vote' property of both comments and articles.",
-        tech: "Express | Knex | PostgreSQL | Mocha | Chai | Supertest",
-        site: "https://j-dublon-nc-news.herokuapp.com/api",
-        code: "https://github.com/j-dublon/be-nc-news",
-      },
+      // {
+      //   name: "Northcoders News",
+      //   id: "3",
+      //   description:
+      //     "A full stack news app serving data from a self-built RESTful API. Users may browse articles, filter by topic, leave comments and vote on both articles and comments.",
+      //   tech:
+      //     "React | HTML5 | Responsive CSS | Leaflet | Node.js | Axios | Reach Router",
+      //   site: "https://j-dublon-react-news-app.netlify.app/",
+      //   code: "https://github.com/j-dublon/react-news-app",
+      // },
+      // {
+      //   name: "RESTful API",
+      //   id: "4",
+      //   description:
+      //     "A RESTful API utilising MVC architecture, with comprehensive error handling. The API serves articles, comments, topics and users, and enables the posting and deleting of comments, and the amending of 'vote' property of both comments and articles.",
+      //   tech: "Express | Knex | PostgreSQL | Mocha | Chai | Supertest",
+      //   site: "https://j-dublon-nc-news.herokuapp.com/api",
+      //   code: "https://github.com/j-dublon/be-nc-news",
+      // },
       {
         name: "GraphQL Book List Server",
         id: "9",
