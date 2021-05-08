@@ -11,7 +11,7 @@ class Portfolio extends Component {
           "My latest project, still in progress. A React Native app that serves data from a public GraphQL API. The app presents users with a tinder-style stack of GraphQL jobs which they can swipe left to discard and right to save. Authorisation will be handled using AWS Cognito, and users will be able to view and edit account information and favourites, and see trends in graph form. Users will be able to click through to company websites and apply URLs.",
         tech: "React Native | GraphQL | Apollo | React Navigation",
         site: "",
-        code: "https://github.com/j-dublon/fe-amod",
+        code: "https://github.com/j-dublon/myGraphQLJobs",
       },
       {
         name: "A Multitude of Drops",
