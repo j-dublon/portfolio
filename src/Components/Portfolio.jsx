@@ -14,6 +14,14 @@ class Portfolio extends Component {
         code: "https://github.com/j-dublon/myGraphQLJobs",
       },
       {
+        name: "Think Back",
+        id: "11",
+        description: "A simple React app that tests users memory skills via the 'n-back' psychiatry test, which shows users letters and asks them to respond when a letter matches a letter that was n moves back. The app uses React Context and a data provider pattern to manage data across the app.",
+        tech: "React | React Context | Reach Router",
+        site: "https://think-back.netlify.app",
+        code: "https://github.com/j-dublon/think-back",
+      },
+      {
         name: "A Multitude of Drops",
         id: "7",
         description:
