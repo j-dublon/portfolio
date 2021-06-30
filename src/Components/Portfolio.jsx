@@ -5,10 +5,19 @@ class Portfolio extends Component {
   state = {
     projects: [
       {
+        name: "NestJS Task Management App",
+        id: "12",
+        description:
+          "A Nest JS Rest API for a classic tasks app, with a Postgres database. The app uses TypeScript and TypeORM, Pipes for data validation, and Jest for testing.",
+        tech: "NestJS | Postgres | TypeScript | TypeORM | Jest | JWT",
+        site: "",
+        code: "https://github.com/j-dublon/nestjs-tasks",
+      },
+      {
         name: "My GraphQL Jobs",
         id: "1",
         description:
-          "My latest project, still in progress. A React Native app that serves data from a public GraphQL API. The app presents users with a tinder-style stack of GraphQL jobs which they can swipe left to discard and right to save. Authorisation will be handled using AWS Cognito, and users will be able to view and edit account information and favourites, and see trends in graph form. Users will be able to click through to company websites and apply URLs.",
+          "A recent project, still in progress. A React Native app that serves data from a public GraphQL API. The app presents users with a tinder-style stack of GraphQL jobs which they can swipe left to discard and right to save. Authorisation will be handled using AWS Cognito, and users will be able to view and edit account information and favourites, and see trends in graph form. Users will be able to click through to company websites and apply URLs.",
         tech: "React Native | GraphQL | Apollo | React Navigation",
         site: "",
         code: "https://github.com/j-dublon/myGraphQLJobs",
