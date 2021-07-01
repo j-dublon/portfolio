@@ -5,6 +5,15 @@ class Portfolio extends Component {
   state = {
     projects: [
       {
+        name: "NestJS Students App",
+        id: "13",
+        description:
+          "A Nest JS GraphQL API for a small students/lessons app, with a MongoDB database. The app uses TypeScript and TypeORM, and Pipes for data validation.",
+        tech: "NestJS | MongoDB | TypeScript | TypeORM | GraphQL",
+        site: "",
+        code: "https://github.com/j-dublon/nestjs-tasks",
+      },
+      {
         name: "NestJS Task Management App",
         id: "12",
         description:
