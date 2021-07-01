@@ -11,7 +11,7 @@ class Portfolio extends Component {
           "A Nest JS GraphQL API for a small students/lessons app, with a MongoDB database. The app uses TypeScript and TypeORM, and Pipes for data validation.",
         tech: "NestJS | MongoDB | TypeScript | TypeORM | GraphQL",
         site: "",
-        code: "https://github.com/j-dublon/nestjs-tasks",
+        code: "https://github.com/j-dublon/nestjs-students",
       },
       {
         name: "NestJS Task Management App",
