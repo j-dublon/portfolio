@@ -13,7 +13,7 @@ export default function About() {
                 Javascript, React Native, GraphQL
               </li>
               <li className="about__topContent__list__item">
-                React, Node, Apollo, Typescript, AWS Amplify & Cognito
+                React, Node, Apollo, Typescript, AWS, Azure
               </li>
               <li className="about__topContent__list__item">
                 Clear DRY code, modular programming
@@ -25,8 +25,13 @@ export default function About() {
                 Test driven delivery
               </li>
               <li className="about__topContent__list__item">
-                {" "}
-                GIT version control, agile delivery, JIRA
+                GIT version control, agile delivery, CI/CD
+              </li>
+              <li className="about__topContent__list__item">
+                Coaching & developing others
+              </li>
+              <li className="about__topContent__list__item">
+                Promoting inclusivity & diversity in the workplace
               </li>
             </ul>
           </div>
@@ -39,20 +44,22 @@ export default function About() {
           </div>
         </section>
         <p className="about__bottomContent">
-          I currently work as a mobile app developer for an industry-leading
-          agency in York. I work primarily in React Native and GraphQL, using
-          modular programming to produce robust, maintainable code. I am
+          I currently work as a Product Developer for a digital consultancy that builds 
+          technical capabilities while delivering industry-leading digital 
+          strategies and products. I am currently working with a national media company to 
+          deliver a React Native app used by 8 million+ people. In this role I have led on 
+          project-critical features, delivered training in React Native and TDD, and 
+          worked closely with our client's devs to build their skills and confidence. As well
+          as my client work, I also mentor more junior developers, and support our in-house 
+          communities of practice.<br />
+          <br />Prior to this, I worked as a Mobile App Developer for an industry-leading
+          agency in York. I worked primarily in React Native and GraphQL, using
+          modular programming to produce robust, maintainable code. I was
           involved in every stage of the development life cycle, from
-          problem-analysis to deployment, and work closely with our designers
-          and testers to ensure every product exceeds our clients’ expectations.
-          We use agile delivery for continuous deployment, and I am experienced
-          in using GIT to manage multiple branches across different releases. I
-          strive to continuously improve my coding skills, and enjoy having the
-          opportunity to work closely with and learn from my team. <br />
-          <br /> Prior to this, I completed an intensive traineeship with
-          Northcoders, where I used test-driven development to deliver across
-          the full stack, including servers, REST APIs, and PostgreSQL
-          databases.
+          problem-analysis to deployment, working closely with designers
+          and testers to ensure every product exceeded clients’ expectations.<br />
+          <br />I thrive in challenging environments and I am always keen to learn new tech 
+          stacks. I am currently teaching myself Python.
         </p>
       </div>
     </main>
