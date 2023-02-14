@@ -5,6 +5,15 @@ class Portfolio extends Component {
   state = {
     projects: [
       {
+        name: "Fullstack Next.js Events App",
+        id: "14",
+        description:
+          "A fullstack events app utilising Next.js API routes, with a MongoDB database.",
+        tech: "Next.js | MongoDB",
+        site: "",
+        code: "https://github.com/j-dublon/fullstack-next",
+      },
+      {
         name: "NestJS Students App",
         id: "13",
         description:
@@ -34,7 +43,8 @@ class Portfolio extends Component {
       {
         name: "Think Back",
         id: "11",
-        description: "A simple React app that tests users memory skills via the 'n-back' psychiatry test, which shows users letters and asks them to respond when a letter matches a letter that was n moves back. The app uses React Context and a data provider pattern to manage data across the app.",
+        description:
+          "A simple React app that tests users memory skills via the 'n-back' psychiatry test, which shows users letters and asks them to respond when a letter matches a letter that was n moves back. The app uses React Context and a data provider pattern to manage data across the app.",
         tech: "React | React Context | Reach Router",
         site: "https://think-back.netlify.app",
         code: "https://github.com/j-dublon/think-back",
@@ -90,8 +100,7 @@ class Portfolio extends Component {
         id: "2",
         description:
           "A full stack web app that helps independent eateries reach their customers with their current services during Covid-19. Users may register, login, find businesses on a map, filter by cuisine and dietary requirements, view individual business pages and leave comments.",
-        tech:
-          "React | Material-UI | HTML5 | Responsive CSS Leaflet | Node.js | Axios | Reach Router | AWS Amplify | Cognito | DynamoDB | API Gateway |  Lambda  | Cloud Watch | IAM | Javascript",
+        tech: "React | Material-UI | HTML5 | Responsive CSS Leaflet | Node.js | Axios | Reach Router | AWS Amplify | Cognito | DynamoDB | API Gateway |  Lambda  | Cloud Watch | IAM | Javascript",
         site: "https://independent-leeds.netlify.app/",
         code: "https://github.com/j-dublon/independent-leeds",
       },
